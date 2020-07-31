@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculador de notas</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Formulario de notas para aprobar o reprobar materia">
+	<meta name="keywords" content="Promedio, Calificación, Conteo">
+	<link rel="icon" type="image/png" href="./img/icono.png" sizes="16x16">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@562&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script:wght@562&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<main>
+		<div>
+			<input type="text" name="nombreEstudiante" id="nombre" placeholder="Nombre completo">
+			<div id="notas">
+				<input type="number" name="calificacionUno" id="calificacionUno" placeholder="Calificación 1">
+				<input type="number" name="calificacionDos" id="calificacionDos" placeholder="Calificación 2">
+				<input type="number" name="calificacionTres" id="calificacionTres" placeholder="Calificación 3">
+			</div>
+			<button onclick="agregarEstudiante()">Agregar Estudiante</button>
+		</div>
+		<div>
+			<table border="1px" id="tablaEstudiantes">
+				<thead>
+					<tr>
+						<th>Estudiante</th>
+						<th>Calificación 1</th>
+						<th>Calificación 2</th>
+						<th>Calificación 3</th>
+						<th>Calificación Final</th>
+						<th>Estado</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+				</tbody>
+			</table>
+		</div>
+	</main>
+	<footer>
+	</footer>
+	<script type="text/javascript" src="./js/logic.js"></script>
+</body>
+
+</html>
